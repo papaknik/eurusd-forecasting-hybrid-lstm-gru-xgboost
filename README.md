@@ -73,6 +73,7 @@ EURUSD_HybridForecasting/
 ├── EUR_USD_Forecasting_Univariate_LSTM.ipynb   # Main notebook with end-to-end modeling and evaluation
 ├── hybrid_model_utils.py                       # Helper functions for modeling, evaluation, and backtesting
 ├── environment.yml                             # Conda environment specification for reproducibility
+├── eurusd_forecasting.pdf                      # PDF version of the notebook for offline access/review
 ├── README.md                                   # Project overview and conclusions (this file)
 ```
 
