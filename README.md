@@ -8,7 +8,7 @@ The notebook includes both static test set evaluation and rolling window backtes
 
 ## 📈 Summary of Results
 
-### Test Set (2023)
+### Test Set
 
 - **MAE:** 0.002149  
 - **MAPE:** 0.20%  
