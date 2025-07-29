@@ -8,17 +8,27 @@ The notebook includes both static test set evaluation and rolling window backtes
 
 ## 📈 Summary of Results
 
-### Test Set
+### 📊 Test Set Comparison
 
-- **MAE:** 0.002149  
-- **MAPE:** 0.20%  
-- **Directional Accuracy:** 65.24%
+| Model                          | MAE       | MAPE     | Directional Accuracy |
+|-------------------------------|-----------|----------|-----------------------|
+| **Pure RNN (LSTM + GRU)**     | 0.004551  | 0.42%    | 49.79%                |
+| **Hybrid (RNN + XGBoost)**    | 0.002149  | 0.20%    | 65.24%                |
 
-### Rolling Window Backtest (2007–2024)
+> ✅ **Hybrid Benefits**:
+> - MAE reduced by ~53%
+> - MAPE cut in half
+> - Directional Accuracy increased by **+15.5%**
 
-- **Average Rolling MAE:** 0.001842  
-- **Average Rolling MAPE:** 0.17%  
-- **Average Rolling Daily Directional Accuracy:** 76.03%
+### 🔁 Rolling Evaluation (Hybrid Model Only)
+Performed from 2007 to 2024, each window forecasts the next year using a retrained hybrid model (LSTM-GRU + XGBoost).
+
+
+| Metric                        | Value     |
+|-------------------------------|-----------|
+| Average Rolling MAE           | 0.001842  |
+| Average Rolling MAPE          | 0.17%     |
+| Avg. Rolling Directional Accuracy | 76.03% |
 
 ---
 
@@ -53,6 +63,10 @@ While these results are more than promising—especially for a univariate baseli
 - Hybrid ensembles combining diverse modeling strategies and timeframes  
 
 ---
+
+## 📁 Project Structure
+
+
 
 ## 📁 Project Structure
 
