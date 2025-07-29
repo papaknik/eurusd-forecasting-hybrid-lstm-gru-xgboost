@@ -67,10 +67,6 @@ While these results are more than promising—especially for a univariate baseli
 
 ## 📁 Project Structure
 
-
-
-## 📁 Project Structure
-
 ```
 EURUSD_HybridForecasting/
 │
