@@ -1,6 +1,20 @@
 # EUR/USD Forecasting: A Hybrid LSTM-GRU + XGBoost Baseline Univariate Model
 
+# EUR/USD Forecasting: A Hybrid LSTM-GRU + XGBoost Baseline Univariate Model
+
 This project presents a **baseline univariate forecasting model** designed to predict the next-day EUR/USD exchange rate using only historical closing prices. A **stacked LSTM-GRU neural network** captures temporal dependencies in the data, while an **XGBoost regressor** models the residuals — forming a hybrid architecture.
+
+While this work applies a specific variation, the **hybrid modeling concept is well established** in time series forecasting, particularly in domains like finance and energy. Similar approaches can be found in:
+
+- **"LSTM-BO-XGBoost for Stock Price Forecasting"** – Tech Science Press (2020)  
+  [https://www.techscience.com/iasc/v29n3/43035](https://www.techscience.com/iasc/v29n3/43035)
+
+- **"CNN-LSTM + XGBoost Hybrid for Stock Prediction"** – arXiv (2022)  
+  [https://arxiv.org/abs/2204.02623](https://arxiv.org/abs/2204.02623)
+
+- **"A Hybrid Deep Learning and XGBoost Model for Financial Forecasting"** – arXiv preprint (2025)  
+  [https://arxiv.org/html/2506.22055v1](https://arxiv.org/html/2506.22055v1)
+
 
 The notebook includes both static test set evaluation and rolling window backtesting from 2007 to 2024, providing insights into how this hybrid approach generalizes across different market regimes.
 
