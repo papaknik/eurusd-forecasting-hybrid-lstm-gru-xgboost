@@ -21,7 +21,8 @@ The notebook includes both static test set evaluation and rolling window backtes
 > - Directional Accuracy increased by **+15.5%**
 
 ### 🔁 Rolling Evaluation (Hybrid Model Only)
-Performed from 2007 to 2024, each window forecasts the next year using a retrained hybrid model (LSTM-GRU + XGBoost).
+Performed from 2007 to 2024, each rolling window uses an 8-year training period to forecast the next year using a retrained hybrid model (LSTM-GRU + XGBoost).
+This approach simulates a realistic walk-forward strategy that adapts to shifting market regimes.
 
 
 | Metric                        | Value     |
