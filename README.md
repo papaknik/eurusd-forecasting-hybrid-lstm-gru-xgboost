@@ -67,4 +67,4 @@ EURUSD_HybridForecasting/
 
 ---
 
-This project demonstrates the potential of hybrid modeling even in univariate settings, while reminding us that **forecasting is not just about fitting the past.
+This project demonstrates the potential of hybrid modeling even in univariate settings, while reminding us that **forecasting is not just about fitting the past**.
